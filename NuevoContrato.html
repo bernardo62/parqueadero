@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/fontello.css">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="imagenes/aaaccc.jpg">
+<title>Nuevo contrato</title>
+</head>
+<body class="contenedor">
+    <form class="formI formu" action="guardarContrato.php" method="POST">
+        <h3>CREAR CONTRATO</h3>
+        <br>
+        <div>
+            <label for="Placa">Placa</label>
+            <input type="text" name="Placa" placeholder="Placa" required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="Cedula">Cédula</label>
+            <input type="text" name="Cedula" placeholder="Cédula o passport" required>
+        </div>
+        <br>
+        <div>
+            <label for="Celda">Celda</label>
+            <input type="text" name="Celda" placeholder="Celda" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="Fecha">Fecha</label>
+            <input type="Fecha" name="Fecha" placeholder="año/mes/día" required>
+        </div>
+        <br>
+        <input type="submit" value="Crear contrato" class="enviar">
+    </form>
+    
+</body>
+</html>
